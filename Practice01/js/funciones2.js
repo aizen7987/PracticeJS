@@ -92,12 +92,7 @@ const eliminarPatron = (cadena, patron) => {
     let arrayCadena2 = patron.split("");
     let nuevaCadena = "";
 
-    for(let i=0;i<arrayCadena1.length;i++){
-        for(let j=0;j<arrayCadena2.length;j++){
-            if(arrayCadena1[i]!=arrayCadena2[j])
-                nuevaCadena += arrayCadena1[i];
-        }
-    }
+    
     console.info(nuevaCadena);
 }
 
